@@ -1,12 +1,14 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Social Login
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <button ion-button (click)="login()">Login</button>
-  <button ion-button (click)="logout()">Logout</button>
+<ion-content padding style="background: url('../assets/images/ODR9390.jpg');">
+
+  <button ion-button (click)="Googlelogin()" class="button1">Login with Google+</button>
+  <button ion-button (click)="logout()" class="button3">Logout</button>
+  <button ion-button class="button2" (click)="Facebooklogin()">Login with Facebook</button>
 </ion-content>

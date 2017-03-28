@@ -15,6 +15,9 @@ const cloudSettings: CloudSettings = {
     'google': {
       'webClientId': '416305214569-k3n6efi6lp5294ama1jc2k3f9c1jo3d7.apps.googleusercontent.com',
       'scope': ['https://www.googleapis.com/auth/calendar.readonly']
+    },
+    'facebook': {
+      'scope': []
     }
   }
 }
